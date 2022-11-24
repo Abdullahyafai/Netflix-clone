@@ -1,0 +1,71 @@
+.bg-image{
+    background: url('../Images/bg-home.jpg') 50% 50% no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.bg{
+    background-image:linear-gradient(0deg,transparent 50%,rgba(0,0,0,.7)),radial-gradient(50% 100%,transparent 0,rgba(0,0,0,.7) 100%);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+.heading{
+font-size: 3.125rem;
+}
+.form-floating > label {
+    width: 100%;
+    font-size: 1rem !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 1rem 0.75rem;
+    pointer-events: none;
+    border: 1px solid transparent;
+    transform-origin: 0 0;
+    transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+.form-floating {
+    display: flex;
+    /* position: relative; */
+    width: 50%;
+}
+.get_start{
+    width: 50%;
+    font-size: 1.5rem;
+}
+.btn-red{
+    color: white;
+    background-color: #ee061c;
+    border-color: #ee061c;
+}
+.sign-btn{
+    color: white;
+    background-color: #ee061c;
+    border-radius: 6px;
+    padding: 7px 20px;
+}
+.h-89vh{
+    height: 89vh;
+}
+.w-42{
+width: 42%;
+}
+.bg-black{
+    background-color: black;
+}
+.seprate{
+    background-color: #212529;
+    height: 10px !important;
+    margin: 0;
+    opacity: 1;
+
+}
+.vid{
+    position: absolute;
+    left: 62%;
+    width: 21.9%;
+    bottom: -236px;
+}
